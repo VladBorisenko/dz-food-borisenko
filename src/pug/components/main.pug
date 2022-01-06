@@ -1,0 +1,38 @@
+include ../mixins/features.pug
+include ../mixins/menu-items.pug
+
+.container
+  .first_section
+    .main-text
+      h1 Making time a good time by making food the good food.
+      p There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment.
+      .buttons 
+        button.right-btn Order Now
+        button.left-btn Food Details
+    img(src="../assets/imgs/main-img.jpg", alt="")
+
+  .second_section
+    .features 
+      .titles 
+        h2 Features
+        h3 Food With A New Passion
+      .features-item
+        +feature("../assets/imgs/house.png", "Quality Food")
+        +feature("../assets/imgs/moto.png", "Food Delivery")
+        +feature("../assets/imgs/smile.png", "Super Taste")
+      
+  .third_section
+    .third_section-titles 
+        h2 Menu
+        h3 Food Full of treaty Love
+        p 
+         | There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls 
+         | with Persons but also specialized equipment, Skills to manage Customers. 
+    .menu-item
+      +item(" ../assets/imgs/vegie-muffen.jpg", "Vegie Muffen", "16$", "There are many things are needed to start the Fast Food Business.", "../assets/imgs/plus.svg", "4")
+      +item("../assets/imgs/salads.jpg", "Salads", "12$", "There are many things are needed to start the Fast Food Business.", "../assets/imgs/plus.png", "5")
+      +item("../assets/imgs/burger.jpg", "Burger", "10$", "There are many things are needed to start the Fast Food Business.", "../assets/imgs/plus.png", "3")
+      +item("../assets/imgs/delmonico.jpg", "Delmonico Steak dish", "14$", "There are many things are needed to start the Fast Food Business.", "../assets/imgs/plus.png", "2")
+      +item("../assets/imgs/masala.jpg", "Egg Masala", "9$", "There are many things are needed to start the Fast Food Business.", "../assets/imgs/plus.png", "4")
+      +item("../assets/imgs/peach.jpg", "Peach Melba dish", "15$", "There are many things are needed to start the Fast Food Business.", "../assets/imgs/plus.png", "3")
+    span Learn More

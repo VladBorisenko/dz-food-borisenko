@@ -1,0 +1,15 @@
+mixin item(img, title, price, text, plus, count)   
+  .item   
+    img.food( src=img, alt="")
+    .name-price
+      h4=title
+      h4=price 
+    p=text 
+    .plus-rating
+      img(src=plus, alt="")
+      .rating(data-rating=count)
+        .rating__star
+        .rating__star
+        .rating__star
+        .rating__star
+        .rating__star
