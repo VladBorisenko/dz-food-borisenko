@@ -1,10 +1,10 @@
 
-@import "/reset/reset.scss";
-@import "/stylesheet.scss";
-@import "/components/header.scss";
-@import "/components/main.scss";
-@import "/components/footer.scss";
-@import "/components/adept.scss";
+@import "./reset/reset.scss";
+@import "./stylesheet.scss";
+@import "./components/header.scss";
+@import "./components/main.scss";
+@import "./components/footer.scss";
+@import "./components/adept.scss";
 
 html{
     font-family: 'Roboto', sans-serif;
@@ -16,6 +16,7 @@ html{
     margin: 0 auto;
 
 }
+
 
 
 

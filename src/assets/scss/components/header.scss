@@ -3,14 +3,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding-left: 40px;
-    padding-right: 450px;
+    margin-left: -430px;
     
   }
   .menu a {
@@ -20,6 +20,7 @@
     font-style: normal;
     font-weight: normal;
     transition: color 0.2s ease;
+    white-space: nowrap;
   }
   
   .menu a:hover {
@@ -27,7 +28,7 @@
   }
   
   .header-btn {
-    background: rgba(220, 120, 11, 1);
+    background: rgb(220, 120, 11, 1);
     padding: 14px 30px;
     color: white;
     font-size: 16px;
@@ -41,3 +42,5 @@
   .header-btn:hover {
     background: rgb(189, 54, 47);
   }
+
+ 
